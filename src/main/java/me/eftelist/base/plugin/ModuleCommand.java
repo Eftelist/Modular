@@ -18,10 +18,10 @@ public class ModuleCommand implements CommandExecutor {
             if(Core.getManager().moduleExist(module)) {
                 if(args[0].equalsIgnoreCase("enable")){
                     Core.getManager().loadModule(module);
-                    commandSender.sendMessage(ChatColor.GREEN + "Module loading...");
+                    commandSender.sendMessage(ChatColor.GREEN + "Module loading.");
                 }
                 if(args[0].equalsIgnoreCase("disable")){
-                    commandSender.sendMessage(ChatColor.GOLD + "Module unloading...");
+                    commandSender.sendMessage(ChatColor.GOLD + "Module unloading.");
                     Core.getManager().disableModule(module);
                 }
             } else {
