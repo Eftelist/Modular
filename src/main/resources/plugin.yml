@@ -1,0 +1,6 @@
+name: Modules
+description: Modular
+version: 0.2
+main: me.eftelist.base.plugin.Core
+commands:
+   modular:
