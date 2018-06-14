@@ -32,6 +32,6 @@ public class ExampleModule implements IModule {
     }
 
     public boolean getEnabled() {
-        return false;
+        return enabled;
     }
 }
